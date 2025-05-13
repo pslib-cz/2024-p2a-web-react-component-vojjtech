@@ -56,7 +56,7 @@ const App = () => {
 
   return (  //<> </> aby bylo možný víc komponentů
     <>
-      <PercentViewBox value={45} max={100} /*makeColor={(p) => `hsl(10,100%,${p*50}%)`}*/ />
+      <PercentViewBox value={65} max={100} makeColor={(p) => `hsl(${p/100*120}, 100%,50%)`}/>
     </>
   )
 }

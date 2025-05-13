@@ -17,24 +17,6 @@
     height: 100%;
 }
 
-.percentviewinputs{
-    display: flex;
-    flex-direction: column;
-}
-
-.valueinputs{
-    display: flex;
-    gap: 1em;
-}
-
-.input{
-    display: flex;
-    width: 40%;
-    flex-grow: 1;
-}
-
-.input input{
-    width: 10em;
-    flex-grow: 1;
-    flex-shrink: 1;
+input[type="range"] {
+    -webkit-appearance: none;
 }
